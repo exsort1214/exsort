@@ -1,0 +1,551 @@
+<!DOCTYPE html><html lang=""><head>
+    <title>Ipsoom Center - Silex template</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.10">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/jquery-ui.js" data-silex-static=""></script>
+
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://editor.silex.me/static/2.10/front-end.js" data-silex-static=""></script>
+    <!-- Normalize -->
+    <link href="https://editor.silex.me/static/2.10/normalize.css" rel="stylesheet" data-silex-static="">
+    <!-- Silex style -->
+    <link href="https://editor.silex.me/static/2.10/front-end.css" rel="stylesheet" data-silex-static="">
+
+    <style type="text/css" class="silex-style">.nav-mark a {padding: 15px 5px; transition: background-color .5s ease;}.sub-nav.sub-nav-active {width: 250px; box-shadow: 0 1px 10px black;}.sub-nav {transition: all .15s ease-out; z-index: 100; cursor: pointer;}</style>
+    <script type="text/javascript" class="silex-script">/* slider buttons */
+$(function() {
+    try {
+        var slider = $('.slider .unslider').children().get(0);
+        var unslider = $(slider).data('unslider');
+        $('.sub-nav').click(function() {
+            unslider.next()
+            $('.sub-nav-active').removeClass('sub-nav-active');
+            $(this).addClass('sub-nav-active');
+        });
+    }
+    catch(e) {
+    }
+})</script>
+    
+    <style class="silex-inline-styles" type="text/css">.silex-id-1439554967896-66 {background-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0);}.silex-id-1538221038117-34 {top: 5px; left: 5px;}@media only screen and (max-width: 480px) {.silex-id-1538221038117-34 {top: 0px; left: 0px;}}.silex-id-1538221038114-33 {min-height: 20px;}@media only screen and (max-width: 480px) {.silex-id-1538221038114-33 {min-height: 58px; top: 27px; left: 12px; width: 445px;}}.silex-id-1490693608162-3 {background-color: transparent; top: 5px; left: 5px; min-width: 960px;}.silex-id-1490693608161-2 {min-height: 147px; background-color: transparent; top: 15px; left: 647px; width: 960px;}.silex-id-1552775712222-12 {min-height: 27px; width: 33px; background-color: transparent; top: 100px; left: 774px;}@media only screen and (max-width: 480px) {.silex-id-1552775712222-12 {left: -12px; top: 4708px;}}.silex-id-1439554967286-60 {width: 133px; top: 74px; left: 371px; box-sizing: content-box; min-height: 36px;}.silex-id-1439554966975-57 {width: 154px; top: 73px; left: 512px; box-sizing: content-box; min-height: 56px;}.silex-id-1439554966767-55 {width: 146px; top: 73px; left: 673px; box-sizing: content-box; min-height: 56px;}.silex-id-1439554966563-53 {width: 95px; top: 73px; left: 829px; box-sizing: content-box; min-height: 45px;}.silex-id-1552775732073-13 {width: 100px; min-height: 100px; background-color: rgb(255, 255, 255); top: 100px; left: 740px;}@media only screen and (max-width: 480px) {.silex-id-1552775732073-13 {left: 391px; top: 64px; background-color: transparent; width: 27px; min-height: 20px;}}.silex-id-1439554967492-62 {width: 77px; top: 73px; left: 280px; box-sizing: content-box; min-height: 46px;}.silex-id-1594717070847-0 {width: 188px; min-height: 51px; top: 68px; left: 37px;}.silex-id-1490693798023-5 {background-color: transparent; top: 178px; left: 5px; min-width: 960px;}.silex-id-1490693798022-4 {min-height: 474px; background-color: transparent; top: 15px; left: 647px; width: 960px;}.silex-id-1439554966458-52 {width: 960px; top: -5px; left: -1px; box-sizing: content-box; background-color: rgb(0, 0, 0); min-height: 483px;}.silex-id-1439554966357-51 {width: 232px; top: 164px; left: 0px; box-sizing: content-box; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 0px; border-right-width: 3px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(102, 88, 71); min-height: 159px;}@media only screen and (max-width: 480px) {.silex-id-1439554966357-51 {top: 0px; left: 93px; width: 234px; min-height: 158px;}}.silex-id-1439554966255-50 {width: 183px; top: 22px; left: 45px; box-sizing: content-box; min-height: 118px;}.silex-id-1439554966154-49 {width: 250px; top: 5px; left: 0px; box-sizing: content-box; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 0px; border-right-width: 3px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 153, 0); min-height: 159px;}.silex-id-1439554966050-48 {width: 183px; top: 17px; left: 45px; box-sizing: content-box; min-height: 104px;}.silex-id-1439554965843-46 {width: 232px; top: 323px; left: 0px; box-sizing: content-box; border-top-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-top-width: 0px; border-right-width: 3px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(61, 54, 45); min-height: 159px;}.silex-id-1439554965740-45 {width: 183px; top: 22px; left: 45px; box-sizing: content-box; min-height: 104px;}.silex-id-1594717264367-2 {width: 715px; top: 5px; left: 228px; box-sizing: content-box; border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: rgb(0, 0, 0); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; background-image: url(../../../../../libs/templates/silex-templates/ipsoom/assets/bench.jpg); background-color: rgb(0, 0, 0); background-size: cover; min-height: 454px;}@media only screen and (max-width: 480px) {.silex-id-1594717264367-2 {top: 0px; left: 5px; width: 394px; min-height: 94px;}}.silex-id-1490693931165-7 {background-color: transparent; top: 686px; left: 0px; min-width: 960px;}@media only screen and (max-width: 480px) {.silex-id-1490693931165-7 {top: 58px; left: 0px;}}.silex-id-1490693931163-6 {min-height: 133.43743896484375px; background-color: transparent; top: 0px; left: 0px;}@media only screen and (max-width: 480px) {.silex-id-1490693931163-6 {min-height: 3913px;}}.silex-id-1594717539507-32 {width: 905.2951049804688px; min-height: 450px; top: 0px; left: -1px;}.silex-id-1594717617353-33 {width: 890px; min-height: 875px; top: 96.99999237060547px; left: -1px;}.silex-id-1490694258064-17 {background-color: transparent; top: 171px; left: 0px; border-color: #000000; min-width: 960px;}.silex-id-1490694258062-16 {min-height: 744px; background-color: transparent; border-color: #000000; top: 15px; left: 329px; width: 960px;}.silex-id-1492776401689-1 {width: 456px; height: 587px; background-color: transparent; top: 83px; left: 1px;}.silex-id-1548873212201-7 {height: 400px; width: 456px; background-color: transparent; top: 92px; left: 504px;}.silex-id-1490694152451-11 {background-color: transparent; top: 433px; left: NaNpx; min-width: 960px;}.silex-id-1490694152449-10 {min-height: 236px; background-color: transparent; top: 15px; left: 545px; width: 960px;}.silex-id-1439554961635-5 {width: 817px; top: 31px; left: 2px; box-sizing: content-box; min-height: 189px;}.silex-id-1490701849669-19 {background-color: transparent; top: 159px; left: 0px; min-width: 960px; background-image: url(../../../../../libs/templates/silex-templates/ipsoom/assets/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg); background-size: cover; background-position: center center;}.silex-id-1490701849668-18 {min-height: 480px; background-color: transparent; top: 15px; left: 545px; width: 960px;}.silex-id-1490694217944-13 {background-color: transparent; top: 171px; left: 0px;}.silex-id-1490694217944-12 {min-height: 236px; background-color: transparent;}.silex-id-1439554961432-3 {width: 817px; top: 31px; left: 2px; box-sizing: content-box; min-height: 189px;}.silex-id-1490701905049-21 {background-color: transparent; top: 100px; left: NaNpx; background-image: url(../../../../../libs/templates/silex-templates/ipsoom/assets/nQZcA7PRTyuduZPSZQ88_wanderlust.jpg); background-size: cover; background-position: center center;}.silex-id-1490701905043-20 {min-height: 480px; background-color: transparent;}.silex-id-1490694237194-15 {background-color: transparent; top: 171px; left: 0px; min-width: 960px;}.silex-id-1490694237193-14 {min-height: 232px; background-color: transparent; top: 15px; left: 545px; width: 960px;}.silex-id-1439554961331-2 {width: 817px; top: 31px; left: 2px; box-sizing: content-box; min-height: 189px;}.silex-id-1490701944668-23 {background-color: transparent; top: 100px; left: NaNpx; background-image: url(../../../../../libs/templates/silex-templates/ipsoom/assets/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg); background-size: cover; background-position: bottom center;}.silex-id-1490701944667-22 {min-height: 480px; background-color: transparent;}</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/json" class="silex-json-styles">[{"fonts":[{"family":"'Roboto', sans-serif","href":"https://fonts.googleapis.com/css?family=Roboto:100,400"}],"desktop":{"silex-id-1439554967896-66":{"left":"","top":"","background-color":"rgb(0, 0, 0)","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)"},"silex-id-1439554967492-62":{"width":"77px","top":"73px","left":"280px","box-sizing":"content-box","min-height":"46px"},"silex-id-1439554967286-60":{"width":"133px","top":"74px","left":"371px","box-sizing":"content-box","min-height":"36px"},"silex-id-1439554966975-57":{"width":"154px","top":"73px","left":"512px","box-sizing":"content-box","min-height":"56px"},"silex-id-1439554966767-55":{"width":"146px","top":"73px","left":"673px","box-sizing":"content-box","min-height":"56px"},"silex-id-1439554966563-53":{"width":"95px","top":"73px","left":"829px","box-sizing":"content-box","min-height":"45px"},"silex-id-1439554966458-52":{"width":"960px","top":"-5px","left":"-1px","box-sizing":"content-box","background-color":"rgb(0, 0, 0)","min-height":"483px"},"silex-id-1439554966357-51":{"width":"232px","top":"164px","left":"0px","box-sizing":"content-box","border-top-color":"rgb(255, 255, 255)","border-right-color":"rgb(255, 255, 255)","border-bottom-color":"rgb(255, 255, 255)","border-left-color":"rgb(255, 255, 255)","border-top-width":"0px","border-right-width":"3px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","background-color":"rgb(102, 88, 71)","min-height":"159px"},"silex-id-1439554966255-50":{"width":"183px","top":"22px","left":"45px","box-sizing":"content-box","min-height":"118px"},"silex-id-1439554966154-49":{"width":"250px","top":"5px","left":"0px","box-sizing":"content-box","border-top-color":"rgb(255, 255, 255)","border-right-color":"rgb(255, 255, 255)","border-bottom-color":"rgb(255, 255, 255)","border-left-color":"rgb(255, 255, 255)","border-top-width":"0px","border-right-width":"3px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","background-color":"rgb(255, 153, 0)","min-height":"159px"},"silex-id-1439554966050-48":{"width":"183px","top":"17px","left":"45px","box-sizing":"content-box","min-height":"104px"},"silex-id-1439554965843-46":{"width":"232px","top":"323px","left":"0px","box-sizing":"content-box","border-top-color":"rgb(255, 255, 255)","border-right-color":"rgb(255, 255, 255)","border-bottom-color":"rgb(255, 255, 255)","border-left-color":"rgb(255, 255, 255)","border-top-width":"0px","border-right-width":"3px","border-bottom-width":"0px","border-left-width":"0px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","background-color":"rgb(61, 54, 45)","min-height":"159px"},"silex-id-1439554965740-45":{"width":"183px","top":"22px","left":"45px","box-sizing":"content-box","min-height":"104px"},"silex-id-1439554961635-5":{"width":"817px","top":"31px","left":"2px","box-sizing":"content-box","min-height":"189px"},"silex-id-1439554961533-4":{"width":"726px","top":"321px","left":"2px","min-height":"474px"},"silex-id-1439554961432-3":{"width":"817px","top":"31px","left":"2px","box-sizing":"content-box","min-height":"189px"},"silex-id-1439554961331-2":{"width":"817px","top":"31px","left":"2px","box-sizing":"content-box","min-height":"189px"},"silex-id-1439554961229-1":{"width":"100px","top":"378px","left":"288px","background-color":"transparent","min-height":"100px"},"silex-id-1490693608161-2":{"min-height":"147px","background-color":"transparent","top":"15px","left":"647px","width":"960px"},"silex-id-1490693608162-3":{"background-color":"transparent","top":"5px","left":"5px","min-width":"960px"},"silex-id-1490693798022-4":{"min-height":"474px","background-color":"transparent","top":"15px","left":"647px","width":"960px"},"silex-id-1490693798023-5":{"background-color":"transparent","top":"178px","left":"5px","min-width":"960px"},"silex-id-1490693931163-6":{"min-height":"133.43743896484375px","background-color":"transparent","top":"0px","left":"0px"},"silex-id-1490693931165-7":{"background-color":"transparent","top":"686px","left":"0px","min-width":"960px"},"silex-id-1490694152449-10":{"min-height":"236px","background-color":"transparent","top":"15px","left":"545px","width":"960px"},"silex-id-1490694152451-11":{"background-color":"transparent","top":"433px","left":"NaNpx","min-width":"960px"},"silex-id-1490694217944-12":{"min-height":"236px","background-color":"transparent"},"silex-id-1490694217944-13":{"background-color":"transparent","top":"171px","left":"0px"},"silex-id-1490694237193-14":{"min-height":"232px","background-color":"transparent","top":"15px","left":"545px","width":"960px"},"silex-id-1490694237194-15":{"background-color":"transparent","top":"171px","left":"0px","min-width":"960px"},"silex-id-1490694258062-16":{"min-height":"744px","background-color":"transparent","border-width":"","border-style":"","border-color":"#000000","top":"15px","left":"329px","width":"960px"},"silex-id-1490694258064-17":{"background-color":"transparent","top":"171px","left":"0px","border-color":"#000000","min-width":"960px"},"silex-id-1490701849668-18":{"min-height":"480px","background-color":"transparent","top":"15px","left":"545px","width":"960px"},"silex-id-1490701849669-19":{"background-color":"transparent","top":"159px","left":"0px","min-width":"960px","background-image":"url(../../../../../libs/templates/silex-templates/ipsoom/assets/UJO0jYLtRte4qpyA37Xu_9X6A7388.jpg)","background-size":"cover","background-position":"center center"},"silex-id-1490701905043-20":{"min-height":"480px","background-color":"transparent"},"silex-id-1490701905049-21":{"background-color":"transparent","top":"100px","left":"NaNpx","background-image":"url(../../../../../libs/templates/silex-templates/ipsoom/assets/nQZcA7PRTyuduZPSZQ88_wanderlust.jpg)","background-size":"cover","background-position":"center center"},"silex-id-1490701944667-22":{"min-height":"480px","background-color":"transparent"},"silex-id-1490701944668-23":{"background-color":"transparent","top":"100px","left":"NaNpx","background-image":"url(../../../../../libs/templates/silex-templates/ipsoom/assets/xpdPwXTASnOUXFpIPgDs_IMG_1460_edt.jpg)","background-size":"cover","background-position":"bottom center"},"silex-id-1492776401689-1":{"width":"456px","height":"587px","background-color":"transparent","top":"83px","left":"1px"},"silex-id-1538221038114-33":{"width":"","background-color":"","min-height":"20px"},"silex-id-1538221038117-34":{"top":"5px","left":"5px"},"silex-id-1548873212201-7":{"height":"400px","width":"456px","background-color":"transparent","top":"92px","left":"504px"},"silex-id-1552775712222-12":{"min-height":"27px","width":"33px","background-color":"transparent","top":"100px","left":"774px"},"silex-id-1552775732073-13":{"width":"100px","min-height":"100px","background-color":"rgb(255, 255, 255)","top":"100px","left":"740px"},"silex-id-1490693355800-0":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717070847-0":{"width":"188px","min-height":"51px","top":"68px","left":"37px"},"silex-id-1538215480678-25":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717150977-1":{"min-height":"50px","top":"0px","left":"0px","width":"109px"},"silex-id-1594717264367-2":{"width":"715px","top":"5px","left":"228px","box-sizing":"content-box","border-top-width":"5px","border-right-width":"5px","border-bottom-width":"5px","border-left-width":"5px","border-top-style":"solid","border-right-style":"solid","border-bottom-style":"solid","border-left-style":"solid","border-top-color":"rgb(0, 0, 0)","border-right-color":"rgb(0, 0, 0)","border-bottom-color":"rgb(0, 0, 0)","border-left-color":"rgb(0, 0, 0)","border-image-source":"initial","border-image-slice":"initial","border-image-width":"initial","border-image-outset":"initial","border-image-repeat":"initial","background-image":"url(../../../../../libs/templates/silex-templates/ipsoom/assets/bench.jpg)","background-color":"rgb(0, 0, 0)","background-size":"cover","min-height":"454px"},"silex-id-1439554965331-41":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554965129-39":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554965028-38":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554965230-40":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964925-37":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964619-34":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964822-36":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964720-35":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964518-33":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964214-30":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964416-32":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964315-31":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554965432-42":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554964011-28":{"min-height":"68px","top":"0px","left":"0px","width":"148px"},"silex-id-1439554964112-29":{"min-height":"89px","top":"0px","left":"0px","width":"953px"},"silex-id-1439554963605-24":{"min-height":"156px","top":"0px","left":"0px","width":"280px"},"silex-id-1439554963909-27":{"min-height":"71px","top":"0px","left":"0px","width":"20px"},"silex-id-1439554963809-26":{"min-height":"71px","top":"0px","left":"0px","width":"21px"},"silex-id-1439554963502-23":{"min-height":"36px","top":"0px","left":"0px","width":"98px"},"silex-id-1439554963707-25":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554963298-21":{"min-height":"156px","top":"0px","left":"0px","width":"280px"},"silex-id-1439554963198-20":{"min-height":"36px","top":"0px","left":"0px","width":"98px"},"silex-id-1439554963400-22":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962995-18":{"min-height":"156px","top":"0px","left":"0px","width":"280px"},"silex-id-1439554962893-17":{"min-height":"36px","top":"0px","left":"0px","width":"98px"},"silex-id-1439554963096-19":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717391134-31":{"min-height":"104px","top":"0px","left":"0px","width":"953px"},"silex-id-1594717539507-32":{"width":"905.2951049804688px","min-height":"450px","top":"0px","left":"-1px"},"silex-id-1594717617353-33":{"width":"890px","min-height":"875px","top":"96.99999237060547px","left":"-1px"},"silex-id-1490694042604-8":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1439554962691-15":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962386-12":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962283-11":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962181-10":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962078-9":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554961964-8":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554961840-7":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554961739-6":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1538217695429-29":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1439554962792-16":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295663-6":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295663-7":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295688-8":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295714-9":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295762-10":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295762-11":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295786-12":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295810-13":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295857-14":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295857-15":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295881-16":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295907-17":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717295662-5":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296013-18":{"min-height":"371px","top":"0px","left":"0px","width":"148px"},"silex-id-1594717296123-23":{"min-height":"442px","top":"0px","left":"0px","width":"491px"},"silex-id-1594717296224-26":{"min-height":"462px","top":"0px","left":"0px","width":"280px"},"silex-id-1594717296316-29":{"min-height":"462px","top":"0px","left":"0px","width":"280px"},"silex-id-1594717296164-24":{"min-height":"338px","top":"0px","left":"0px","width":"98px"},"silex-id-1594717296256-27":{"min-height":"338px","top":"0px","left":"0px","width":"98px"},"silex-id-1594717296347-30":{"min-height":"338px","top":"0px","left":"0px","width":"98px"},"silex-id-1594717295662-4":{"min-height":"0px","top":"0px","left":"0px"},"silex-id-1594717296040-19":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296068-20":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296094-21":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296123-22":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296224-25":{"min-height":"0px","top":"0px","left":"0px","width":"0px"},"silex-id-1594717296315-28":{"min-height":"0px","top":"0px","left":"0px","width":"0px"}},"mobile":{"silex-id-1439554966357-51":{"top":"0px","left":"93px","width":"234px","min-height":"158px"},"silex-id-1439554961533-4":{"top":"797px","left":"11px","width":"423px","min-height":"307px"},"silex-id-1538221038117-34":{"top":"0px","left":"0px"},"silex-id-1538221038114-33":{"min-height":"58px","top":"27px","left":"12px","width":"445px"},"silex-id-1490693931165-7":{"top":"58px","left":"0px"},"silex-id-1490693931163-6":{"min-height":"3913px"},"silex-id-1552775712222-12":{"left":"-12px","top":"4708px"},"silex-id-1552775732073-13":{"left":"391px","top":"64px","background-color":"transparent","width":"27px","min-height":"20px"},"silex-id-1594717264367-2":{"top":"0px","left":"5px","width":"394px","min-height":"94px"}},"prodotypeData":{"component":{"silex-id-1492776401689-1":{"name":"form1","templateName":"form","field1":false,"label1":"","label2":"","label3":"","placeholder3":"Your Message","buttonBorderColor":"#ff9900","buttonBackgroundColor":"#FF9900"},"silex-id-1548873212201-7":{"name":"map1","templateName":"map","url":"http://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C"},"silex-id-1552775712222-12":{"name":"hamburger1","templateName":"hamburger","fixed":true,"links":[{"properties":{"href":"#!page-home"},"text":"Home"},{"properties":{"href":"#!page-our-mission"},"text":"Our mission"},{"properties":{"href":"#!page-news-press"},"text":"News & Press"},{"properties":{"href":"#!page-how-to-help"},"text":"How to help"},{"properties":{"href":"#!page-contact"},"text":"Contact"}],"background-color":"#333333","button-background-color":"#000000"}},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All Style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal","All":{"font-family":"'Roboto', sans-serif","font-weight":"400","color":"#FEFFFD","padding":{"padding-top":"","padding-bottom":"","padding-left":"20px","padding-right":"20px"}},"Heading2":{"color":"","font-weight":"400"},"Link":{"color":"#FF9900","text-decoration":"none"}}},"mobile":{"normal":{"templateName":"text","className":"all-style","pseudoClass":"normal","All":{"font-size":"200%"}}}}},"nav":{"className":"nav","templateName":"text","displayName":"nav","styles":{"desktop":{"normal":{"className":"nav","pseudoClass":"normal","All":{"line-height":"10px","font-weight":"400","text-align":"center","text-transform":"uppercase","font-size":"18px"},"Link":{"color":"#ffffff","background-color":""},"Active":{"color":"","background-color":"#FF9900"}},":hover":{"templateName":"text","className":"nav","pseudoClass":":hover","Link":{"color":"","background-color":"#FF9900"}}},"mobile":{"normal":{"templateName":"text","className":"nav","pseudoClass":"normal","UnorderedList":{"list-style-type":"none","line-height":"2"}}}}},"header":{"className":"header","templateName":"text","displayName":"header","styles":{"desktop":{"normal":{"className":"header","pseudoClass":"normal","All":{"line-height":"2"}}}}},"white-title":{"className":"white-title","templateName":"text","displayName":"white title","styles":{"desktop":{"normal":{"className":"white-title","pseudoClass":"normal","Heading2":{"color":"#000000","font-weight":"100","text-transform":"capitalize","font-size":"38px","line-height":"0"}},"::first-letter":{"templateName":"text","className":"white-title","pseudoClass":"::first-letter","Heading2":{"background-color":"#ff9900","letter-spacing":"10px","color":"#ffffff","word-spacing":"","text-indent":"","font-weight":"400"}}}}},"black-text":{"className":"black-text","templateName":"text","displayName":"black text","styles":{"desktop":{"normal":{"className":"black-text","pseudoClass":"normal","Heading2":{"color":""},"All":{"color":"#000000","font-weight":""}}}}},"content":{"className":"content","templateName":"text","displayName":"content","styles":{"desktop":{"normal":{"className":"content","pseudoClass":"normal","Heading2":{"text-transform":"uppercase"},"Heading3":{"font-weight":"normal","font-size":"28px","line-height":"0.4"},"Underline":{"text-decoration":"none","color":"#ff9900"}}}}},"phone-number":{"className":"phone-number","templateName":"text","displayName":"phone number","styles":{"desktop":{"normal":{"className":"phone-number","pseudoClass":"normal","All":{"font-size":"30px","line-height":"0"},"Bold":{"font-weight":"normal","color":"#665847"}}}}},"buttons":{"className":"buttons","templateName":"text","displayName":"buttons","styles":{"desktop":{"normal":{"className":"buttons","pseudoClass":"normal","All":{"font-size":"25px","text-transform":"uppercase","line-height":"5px"},"Heading2":{"font-weight":"200"},"Heading3":{"font-weight":"normal","font-size":"22px"},"Paragraph":{"font-weight":"200","font-size":"18px","text-align":"center","line-height":"0"}}}}},"footer":{"className":"footer","templateName":"text","displayName":"footer","styles":{"desktop":{"normal":{"templateName":"text","className":"footer","pseudoClass":"normal","All":{"text-align":"center"}}}}},"quote":{"className":"quote","templateName":"text","displayName":"quote","styles":{"desktop":{"normal":{"className":"quote","pseudoClass":"normal","All":{"font-size":"59px"}}}}}}}}]</script>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+<style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h2 {font-weight: 400;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif; font-weight: 400; color: #FEFFFD; padding-left: 20px; padding-right: 20px;}a {color: #FF9900; text-decoration: none;}[data-silex-href] {color: #FF9900; text-decoration: none;}@media only screen and (max-width: 480px) {.text-element > .silex-element-content {font-size: 200%;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="nav">.nav.text-element > .silex-element-content {font-weight: 400; font-size: 18px; text-align: center; text-transform: uppercase; line-height: 10px;}.nav a {color: #ffffff;}.nav [data-silex-href] {color: #ffffff;}.nav .page-link-active {background-color: #FF9900;}.nav a:hover {background-color: #FF9900;}.nav [data-silex-href]:hover {background-color: #FF9900;}@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {.nav ul li {list-style-type: none; line-height: 2;}}</style><link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet" class="silex-custom-font"><style class="silex-prodotype-style" type="text/css" data-style-id="white-title">.white-title h2 {font-weight: 100; font-size: 38px; color: #000000; text-transform: capitalize; line-height: 0;}.white-title h2::first-letter {font-weight: 400; color: #ffffff; background-color: #ff9900; letter-spacing: 10px;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="black-text">.black-text.text-element > .silex-element-content {color: #000000;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="content">.content h2 {text-transform: uppercase;}.content h3 {font-weight: normal; font-size: 28px; line-height: 0.4;}.content u {color: #ff9900; text-decoration: none;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="phone-number">.phone-number.text-element > .silex-element-content {font-size: 30px; line-height: 0;}.phone-number b {font-weight: normal; color: #665847;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="buttons">.buttons h2 {font-weight: 200;}.buttons h3 {font-weight: normal; font-size: 22px;}.buttons.text-element > .silex-element-content {font-size: 25px; text-transform: uppercase; line-height: 5px;}.buttons p {font-weight: 200; font-size: 18px; text-align: center; line-height: 0;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="footer">.footer.text-element > .silex-element-content {text-align: center;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="quote">.quote.text-element > .silex-element-content {font-size: 59px;}</style><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="875"><style type="text/css" class="silex-style-settings">.website-width {width: 875px;}</style><meta name="hostingProvider" content="ghpages"><script src="https://editor.silex.me/static/2.10/unslider/unslider-min.js" data-silex-static="" data-dependency=""></script><script src="https://editor.silex.me/static/2.10/osm/ol.js" data-silex-static="" data-dependency=""></script><script src="https://editor.silex.me/static/2.10/osm/ol.js" data-silex-static="" data-dependency=""></script><link rel="stylesheet" href="https://editor.silex.me/static/2.10/unslider/unslider.css" data-silex-static="" data-dependency=""><meta name="publicationPath" content="{&quot;name&quot;:&quot;gh-pages&quot;,&quot;folder&quot;:&quot;exsort&quot;,&quot;path&quot;:&quot;exsort/gh-pages&quot;,&quot;service&quot;:&quot;github&quot;,&quot;url&quot;:&quot;https://exsort1214.github.io/exsort/&quot;}"><!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove --></head>
+
+<body data-silex-type="container-element" class="silex-id-1439554967896-66 all-style enable-mobile prevent-draggable prevent-resizable prevent-selectable silex-runtime" data-silex-id="silex-id-1439554967896-66" style=""><div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1538221038117-34 section-element hide-on-desktop prevent-resizable" data-silex-id="silex-id-1538221038117-34" style=""><div data-silex-type="container-element" class="editable-style silex-id-1538221038114-33 container-element silex-element-content silex-container-content website-width prevent-draggable" data-silex-id="silex-id-1538221038114-33"></div></div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490693608162-3 section-element prevent-resizable" data-silex-id="silex-id-1490693608162-3">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490693608161-2 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490693608161-2"><div data-silex-type="text-element" class="editable-style silex-id-1552775712222-12 text-element silex-component prevent-resizable hide-on-desktop nav prevent-auto-z-index" data-silex-id="silex-id-1552775712222-12"><div class="silex-element-content normal"><style>.hamburger-menu_1563834258585_856 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1563834258585_856 nav {left: -9999px;}.hamburger-menu_1563834258585_856 nav ul {margin-top: 80px;}.hamburger-menu_1563834258585_856 nav {opacity: 0; position: absolute; background-color: #333333; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1563834258585_856.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1563834258585_856 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1563834258585_856.open .nav-container {}.hamburger-menu_1563834258585_856 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1563834258585_856 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+      opacity 0.1s ease-in,
+      transform 0.1s ease-in,
+      background 0.1s ease-in;}.hamburger-menu_1563834258585_856.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1563834258585_856 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1563834258585_856.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1563834258585_856.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1563834258585_856 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1563834258585_856.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1563834258585_856 closed">
+    <div class="hamburger-btn fixed">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav role="navigation" class="">
+            <ul>
+            
+                <li><a href="#!page-home" class="">Home</a></li>
+            
+                <li><a href="#!page-our-mission">Our mission</a></li>
+            
+                <li><a href="#!page-news-press">News &amp; Press</a></li>
+            
+                <li><a href="#!page-how-to-help">How to help</a></li>
+            
+                <li><a href="#!page-contact">Contact</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    $('.hamburger-menu_1563834258585_856').removeClass('open');
+    $('.hamburger-menu_1563834258585_856').addClass('closed');
+  }
+  function open() {
+    isOpen = true;
+    $('.hamburger-menu_1563834258585_856').addClass('open');
+    $('.hamburger-menu_1563834258585_856').removeClass('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  var silexElement = $('.hamburger-menu_1563834258585_856').closest('.editable-style');
+  function move(data) {
+    var offset = silexElement.offset();
+    $('.hamburger-menu_1563834258585_856 .nav-container').css({
+      'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
+    });
+  }
+  $('.hamburger-menu_1563834258585_856 .hamburger-btn').click(function() { toggle(); });
+  $(document).on('silex.scroll silex.resize', function(e, data) {
+    close();
+    move(data);
+  });
+  close();
+})();
+</script>
+</div></div>
+            
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554967286-60 hide-on-mobile nav-mark nav" data-silex-id="silex-id-1439554967286-60" style="">
+                <div class="silex-element-content normal">
+                    <p><a href="#!page-our-mission" class="">Our mission</a><br></p></div>
+            </div>
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554966975-57 nav-mark nav hide-on-mobile" data-silex-id="silex-id-1439554966975-57" style="">
+                <div class="silex-element-content normal"><p><a href="#!page-news-press">News &amp; Press</a></p>
+                </div>
+            </div>
+
+
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554966767-55 nav-mark nav hide-on-mobile" data-silex-id="silex-id-1439554966767-55" style="">
+                <div class="silex-element-content normal"><p><a href="#!page-how-to-help">How to help</a></p>
+                </div>
+            </div>
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554966563-53 nav-mark nav hide-on-mobile" data-silex-id="silex-id-1439554966563-53" style="">
+                <div class="silex-element-content normal"><p><a href="#!page-contact" class="">Contact</a></p>
+                </div>
+            </div>
+            
+        <div data-silex-type="container-element" class="editable-style silex-id-1552775732073-13 container-element hide-on-desktop" data-silex-id="silex-id-1552775732073-13"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1439554967492-62 hide-on-mobile nav-mark nav" data-silex-id="silex-id-1439554967492-62" style="">
+                <div class="silex-element-content normal"><p><a href="#!page-home" class="">Home</a></p>
+                </div>
+            </div><div data-silex-type="text-element" class="editable-style silex-id-1594717070847-0 text-element" data-silex-id="silex-id-1594717070847-0" style=""><div class="silex-element-content normal"><p>
+
+ECONOMIC DEPRESSION<br>
+
+</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1490693798023-5 section-element paged-element page-home hide-on-mobile prevent-resizable website-min-width" data-silex-id="silex-id-1490693798023-5">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490693798022-4 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490693798022-4">
+            <div data-silex-type="container-element" class="editable-style container-element silex-id-1439554966458-52" data-silex-id="silex-id-1439554966458-52" style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div data-silex-type="container-element" class="editable-style container-element sub-nav silex-id-1439554966357-51 hide-on-mobile" data-silex-id="silex-id-1439554966357-51" style="top: 164px; width: 232px; min-height: 159px;">
+
+
+
+
+                    <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554966255-50 buttons" data-silex-id="silex-id-1439554966255-50" style="top: 22px; left: 45px; width: 183px; min-height: 118px;">
+                        <div class="silex-element-content normal">
+                            <h2>Cow&nbsp;</h2>
+                            <h3>Volunteer<br></h3>
+                        </div>
+                    </div>
+                </div>
+                <div data-silex-type="container-element" class="editable-style container-element silex-id-1439554966154-49 hide-on-mobile sub-nav sub-nav-active" data-silex-id="silex-id-1439554966154-49" style="">
+
+
+
+
+                    <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554966050-48 buttons" data-silex-id="silex-id-1439554966050-48" style="top: 17px; left: 45px; width: 183px; min-height: 104px;">
+                        <div class="silex-element-content normal">
+                            <h2><span style="font-size: 22px;">Donations</span><br></h2><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div>
+                    </div>
+                </div>
+
+
+
+
+                <div data-silex-type="container-element" class="editable-style container-element sub-nav silex-id-1439554965843-46 hide-on-mobile" data-silex-id="silex-id-1439554965843-46" style="top: 323px; width: 232px; min-height: 159px;">
+
+
+
+
+                    <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554965740-45 buttons" data-silex-id="silex-id-1439554965740-45" style="top: 22px; left: 45px; width: 183px; min-height: 104px;">
+                        <div class="silex-element-content normal">
+                            <h2>Tip<br></h2><h3>Children<br></h3></div>
+                    </div>
+
+                </div>
+                
+                
+            <div data-silex-type="container-element" class="editable-style container-element silex-id-1594717264367-2" data-silex-id="silex-id-1594717264367-2" style="">
+                    </div></div>
+            
+        </div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1490693931165-7 section-element page-home paged-element prevent-resizable website-min-width" data-silex-id="silex-id-1490693931165-7">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490693931163-6 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490693931163-6" style="">
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+
+
+        <div data-silex-type="text-element" class="editable-style silex-id-1594717539507-32 text-element" data-silex-id="silex-id-1594717539507-32" style=""><div class="silex-element-content normal"><p>
+
+<b></b></p><p><b>Depression is a severe and persistent decline in economic performance. In economics, depression is commonly defined as an extreme recession lasting three or more years or leading to a decrease of at least 10% in real gross domestic product ( GDP). It's in a year. Depression is relatively less frequent than mild recessions and tends to be accompanied by high <a href="https://www.abc.net.au/triplej/programs/hack/bad-credit-rating/8790878">unemployment and low inflation</a>.</b></p><br>
+
+<p></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style silex-id-1594717617353-33 text-element" data-silex-id="silex-id-1594717617353-33" style=""><div class="silex-element-content normal"><p>
+
+<b></b></p><p><b>Depression vs. Recession</b></p><p><b>The recession is a normal part of the business cycle, which generally occurs when GDP contracts for at least two quarters. Depression, on the other hand, is a significant downturn in economic performance that has lasted for years rather than only a few quarters. This makes recessions much more common: there have been 33 recessions and only one depression since 1854. Moreover, economists see a recession as two consecutive quarters of negative GDP growth, even if those periods of contraction are relatively mild. Depression, on the other hand, is marked by a drop in annual GDP of more than 10% or more.</b></p><b><br><p>Example of Economic Depression</p><p>The <a href="https://www.productreview.com.au/listings/credit-clean-australia-2">Great Depression</a> lasted nearly ten years and is generally recognized as the greatest economic crisis in the history of the developed nation. It started shortly after the U.S. stock market collapse of October 24 , 1929, known as Black Thursday. After years of careless investment and speculation, the <a href="https://www.abc.net.au/triplej/programs/hack/bad-credit-rating/8790878">stock market bubble burst and a huge</a> sale began, with a record 12.9 million shares traded.</p><br><p>The United States was still in decline, and on the next Tuesday, October 29 , 1929, the Dow Jones Industrial Average dropped by 12 per cent in another retail auction, marking the onset of the <a href="https://www.productreview.com.au/listings/credit-clean-australia-2">Great Depression</a>.</p><br><p>Although the <a href="https://www.productreview.com.au/listings/credit-clean-australia-2">Great Depression</a> began in the United States, the economic impact has been felt worldwide for more than a decade. The Great Depression was marked by a drop in consumer spending and investment, and by catastrophic unemployment , poverty, hunger, and political unrest. In the United States, <a href="https://www.abc.net.au/triplej/programs/hack/bad-credit-rating/8790878">unemployment rose to nearly 25% in 1933</a>, remaining in double digits until 1941, when it finally receded to 9.66%.</p><br><p>What Triggers Depression?</p><p>A number of factors can lead to a severe contraction of the <a href="https://www.productreview.com.au/listings/credit-clean-australia-2">economy and production</a>. In the case of the Great Depression, the blame was laid on weak monetary policies.</p><br><p>After the stock market collapsed in 1929, the Federal Reserve ( Fed) continued to raise interest rates — defending the gold standard took precedence over pumping money into the economy to encourage spending. These actions triggered a <a href="https://www.abc.net.au/triplej/programs/hack/bad-credit-rating/8790878">massive deflation</a>. Costs fell by 10% each year, and customers, knowing that costs for products and services would continue to decline, refrained from making transactions.</p><br></b>
+
+<p></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class=""></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="silex-pages">
+        <a id="page-home" data-silex-type="page-element" class="page-element" href="#!page-home">Home</a><a id="page-our-mission" data-silex-type="page-element" class="page-element" href="#!page-our-mission">Our Mission</a><a id="page-news-press" data-silex-type="page-element" class="page-element" href="#!page-news-press">News &amp; Press</a><a id="page-how-to-help" data-silex-type="page-element" class="page-element" href="#!page-how-to-help">How to Help</a><a id="page-contact" data-silex-type="page-element" class="page-element" href="#!page-contact">Contact</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490694258064-17 section-element page-contact paged-element prevent-resizable" data-silex-id="silex-id-1490694258064-17">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490694258062-16 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490694258062-16">
+
+            <div data-silex-type="html-element" class="editable-style silex-id-1492776401689-1 html-element silex-component silex-component-form silex-use-height-not-minheight" data-silex-id="silex-id-1492776401689-1">
+                <div class="silex-element-content"><form id="id_1538220440244_659" action="https://formspree.io/your@email.com" method="POST">
+  
+  
+  <div>
+    
+    <input required="" id="field2" name="field2" placeholder="your@email.com" type="text">
+  </div>
+  
+  
+  <div class="fill-vertical">
+    
+    <textarea required="" id="field3" name="field3" placeholder="Your Message"></textarea>
+  </div>
+  
+  <input value="Send" type="submit">
+</form>
+<style>#id_1538220440244_659 input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box;}#id_1538220440244_659 input[type=submit] {width: 100%; background-color: #FF9900; color: #FFFFFF; padding: 14px 20px; margin: 8px 0; border: 1px solid #ff9900; border-radius: 3px; cursor: pointer;}#id_1538220440244_659 label {color: #000000;}#id_1538220440244_659 .fill-vertical {flex: 1 1 auto; display: flex; flex-direction: column;}#id_1538220440244_659 .fill-vertical textarea {flex: 1 1 auto; width: 100%; height: 150px; padding: 12px 20px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 3px; background-color: #f8f8f8; font-size: 16px; resize: none;}#id_1538220440244_659 {border-radius: 3px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;}</style>
+
+</div>
+            </div>
+            
+        <div data-silex-type="html-element" class="editable-style silex-id-1548873212201-7 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height" data-silex-id="silex-id-1548873212201-7"><div class="silex-element-content"><div id="mapdiv_1552776904778_764"><div class="ol-viewport" data-view="30" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" width="456" height="400" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style=""><a href="https://openlayers.org/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAHGAAABxgEXwfpGAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAhNQTFRF////AP//AICAgP//AFVVQECA////K1VVSbbbYL/fJ05idsTYJFtbbcjbJllmZszWWMTOIFhoHlNiZszTa9DdUcHNHlNlV8XRIVdiasrUHlZjIVZjaMnVH1RlIFRkH1RkH1ZlasvYasvXVsPQH1VkacnVa8vWIVZjIFRjVMPQa8rXIVVkXsXRsNveIFVkIFZlIVVj3eDeh6GmbMvXH1ZkIFRka8rWbMvXIFVkIFVjIFVkbMvWH1VjbMvWIFVlbcvWIFVla8vVIFVkbMvWbMvVH1VkbMvWIFVlbcvWIFVkbcvVbMvWjNPbIFVkU8LPwMzNIFVkbczWIFVkbsvWbMvXIFVkRnB8bcvW2+TkW8XRIFVkIlZlJVloJlpoKlxrLl9tMmJwOWd0Omh1RXF8TneCT3iDUHiDU8LPVMLPVcLPVcPQVsPPVsPQV8PQWMTQWsTQW8TQXMXSXsXRX4SNX8bSYMfTYcfTYsfTY8jUZcfSZsnUaIqTacrVasrVa8jTa8rWbI2VbMvWbcvWdJObdcvUdszUd8vVeJaee87Yfc3WgJyjhqGnitDYjaarldPZnrK2oNbborW5o9bbo9fbpLa6q9ndrL3ArtndscDDutzfu8fJwN7gwt7gxc/QyuHhy+HizeHi0NfX0+Pj19zb1+Tj2uXk29/e3uLg3+Lh3+bl4uXj4ufl4+fl5Ofl5ufl5ujm5+jmySDnBAAAAFp0Uk5TAAECAgMEBAYHCA0NDg4UGRogIiMmKSssLzU7PkJJT1JTVFliY2hrdHZ3foSFhYeJjY2QkpugqbG1tre5w8zQ09XY3uXn6+zx8vT09vf4+Pj5+fr6/P39/f3+gz7SsAAAAVVJREFUOMtjYKA7EBDnwCPLrObS1BRiLoJLnte6CQy8FLHLCzs2QUG4FjZ5GbcmBDDjxJBXDWxCBrb8aM4zbkIDzpLYnAcE9VXlJSWlZRU13koIeW57mGx5XjoMZEUqwxWYQaQbSzLSkYGfKFSe0QMsX5WbjgY0YS4MBplemI4BdGBW+DQ11eZiymfqQuXZIjqwyadPNoSZ4L+0FVM6e+oGI6g8a9iKNT3o8kVzNkzRg5lgl7p4wyRUL9Yt2jAxVh6mQCogae6GmflI8p0r13VFWTHBQ0rWPW7ahgWVcPm+9cuLoyy4kCJDzCm6d8PSFoh0zvQNC5OjDJhQopPPJqph1doJBUD5tnkbZiUEqaCnB3bTqLTFG1bPn71kw4b+GFdpLElKIzRxxgYgWNYc5SCENVHKeUaltHdXx0dZ8uBI1hJ2UUDgq82CM2MwKeibqAvSO7MCABq0wXEPiqWEAAAAAElFTkSuQmCC"></a></li><li>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div><div class="ol-viewport" data-view="3" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div><div class="ol-viewport" data-view="3" style="position: relative; overflow: hidden; width: 100%; height: 100%; touch-action: none;"><canvas class="ol-unselectable" style="width: 100%; height: 100%; display: none;"></canvas><div class="ol-overlaycontainer"></div><div class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul><li style="display: none;"></li></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+<style>#mapdiv_1552776904778_764 {width: 100%; height: 100%;}</style>
+<script type="text/javascript">
+
+
+function init_1552776904778_764() {
+    if(!$('body').hasClass('silex-runtime') && typeof(ol) === 'undefined') {
+        // wait for dependencies to be loaded
+        setTimeout(init_1552776904778_764, 100);
+        return;
+    }
+
+    // apply position and zoom
+    // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
+    // var params = 'http://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)&layers=(.)/);
+    var params = 'http://www.openstreetmap.org/#map=18/48.87378/2.29489&layers=C'.match(/.*map=([0-9]*)\/(.*)\/(.*)/);
+    if(params) {
+        var zoom = parseFloat(params[1]);
+        var lat = parseFloat(params[2]);
+        var lon = parseFloat(params[3]);
+        // var layer = params[4] || 'S';
+        var center = ol.proj.fromLonLat([lon, lat]);
+        var map = new ol.Map({
+          layers: [
+            new ol.layer.Tile({
+              source: new ol.source.OSM()
+            })
+          ],
+          target: 'mapdiv_1552776904778_764',
+          view: new ol.View({
+            center: center,
+            zoom: zoom
+          })
+        });
+        
+        var iconFeature = new ol.Feature({
+            geometry: new ol.geom.Point(center)
+        });
+        var vectorSource = new ol.source.Vector({
+            features: [iconFeature]
+        });
+        var vectorLayer = new ol.layer.Vector({
+            source: vectorSource
+        });
+        var iconStyle = new ol.style.Style({
+            image: new ol.style.Icon(({
+                anchor: [0.5, 1],
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'fraction',
+                opacity: 1,
+                src: 'https://openlayers.org/en/v4.0.1/examples/data/icon.png'
+            }))
+        });
+        iconFeature.setStyle(iconStyle);
+        map.addLayer(vectorLayer);
+        
+    }
+}
+init_1552776904778_764();
+$(document).on('silex.resize', function() {
+    $('#mapdiv_1552776904778_764').empty();
+    init_1552776904778_764();
+});
+
+</script>
+</div></div></div>
+    </div>
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490694152451-11 section-element page-our-mission paged-element prevent-resizable" data-silex-id="silex-id-1490694152451-11">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490694152449-10 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490694152449-10">
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554961635-5" data-silex-id="silex-id-1439554961635-5">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Our Mission</h1>
+                    <p class="normal">Salami do in est, chuck reprehenderit irure porchetta cillum. Nisi short loin ball tip rump shoulder, ribeye turducken tri-tip pancetta salami nulla porchetta ground round laboris id. Hamburger exercitation frankfurter, eiusmod nostrud
+                        cow ham drumstick strip steak minim picanha quis. Beef ex turkey eu nostrud meatball laboris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490701849669-19 section-element page-our-mission paged-element prevent-resizable" data-silex-id="silex-id-1490701849669-19">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490701849668-18 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490701849668-18"></div>
+    </div>
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490694217944-13 section-element page-news-press paged-element prevent-resizable" data-silex-id="silex-id-1490694217944-13">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490694217944-12 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490694217944-12">
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554961432-3" data-silex-id="silex-id-1439554961432-3">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">News and Press</h1>
+                    <p class="normal">Salami do in est, chuck reprehenderit irure porchetta cillum. Nisi short loin ball tip rump shoulder, ribeye turducken tri-tip pancetta salami nulla porchetta ground round laboris id. Hamburger exercitation frankfurter, eiusmod nostrud
+                        cow ham drumstick strip steak minim picanha quis. Beef ex turkey eu nostrud meatball laboris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490701905049-21 section-element page-news-press paged-element prevent-resizable" data-silex-id="silex-id-1490701905049-21">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490701905043-20 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490701905043-20"></div>
+    </div>
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490694237194-15 section-element page-how-to-help paged-element prevent-resizable" data-silex-id="silex-id-1490694237194-15">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490694237193-14 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490694237193-14">
+            <div data-silex-type="text-element" class="editable-style text-element silex-id-1439554961331-2" data-silex-id="silex-id-1439554961331-2">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">How to Help</h1>
+                    <p class="normal">Salami do in est, chuck reprehenderit irure porchetta cillum. Nisi short loin ball tip rump shoulder, ribeye turducken tri-tip pancetta salami nulla porchetta ground round laboris id. Hamburger exercitation frankfurter, eiusmod nostrud
+                        cow ham drumstick strip steak minim picanha quis. Beef ex turkey eu nostrud meatball laboris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element website-min-width editable-style silex-id-1490701944668-23 section-element page-how-to-help paged-element prevent-resizable" data-silex-id="silex-id-1490701944668-23">
+        <div data-silex-type="container-element" class="editable-style silex-element-content website-width silex-id-1490701944667-22 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1490701944667-22"></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
